@@ -1,1 +1,1 @@
-This Repository includes all projects related to React js Applications
+This Repository includes all projects related to React js Applications.
