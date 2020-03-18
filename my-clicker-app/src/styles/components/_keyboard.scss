@@ -1,0 +1,58 @@
+$display-background-color: #282C34;
+$display-border-color: #32363E;
+$display-color: #61DAFB;
+$display-panel-color: #61ADFE;
+$display-result-color: #FFFFFF;
+.display {
+    align-items: center;
+    background-color: $display-background-color;
+    border: 1rem solid $display-border-color;
+	border-radius: 20%;    
+    display: inline-block;
+	flex-direction: column;
+    height: 4rem;
+    justify-content: center;
+	text-align: center;
+    margin-left: 10px;    
+	margin-top: 10px;
+    width: 4rem;
+}
+
+.display-result {
+	background-color: $display-result-color;
+    border: 0.5rem solid $display-border-color;
+    color: $display-color;
+    font-size: 42px;
+    font-weight: 600;
+	width: 10rem;
+	border-radius: 20%;   
+	margin-left: 10px;   
+	text-align: center;
+}
+
+.display-operand{
+	color: $display-color;
+    font-size: 25px;
+    font-weight: 1000;
+}
+
+.display-reload{
+	width: 2.2rem;
+	height: 2.2rem;
+	align: center;
+}
+
+.display-operands{
+	align-items: center;
+    background-color: $display-panel-color;
+    border: 0.5rem solid $display-border-color;
+	border-radius: 20%;    
+    display: inline-block;
+	flex-direction: column;
+    height: 10rem;
+    justify-content: center;
+	text-align: center;
+    margin-left: 10px;
+    width: 10rem;
+	margin-top: 0.1rem;
+}
